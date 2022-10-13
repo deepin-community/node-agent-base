@@ -1,0 +1,13 @@
+--- a/test/test.ts
++++ b/test/test.ts
+@@ -27,8 +27,8 @@
+ };
+ 
+ const sslOptions = {
+-	key: fs.readFileSync(__dirname + '/ssl-cert-snakeoil.key'),
+-	cert: fs.readFileSync(__dirname + '/ssl-cert-snakeoil.pem')
++	key: fs.readFileSync('test/ssl-cert-snakeoil.key'),
++	cert: fs.readFileSync('test/ssl-cert-snakeoil.pem')
+ };
+ 
+ function json(res: http.IncomingMessage): Promise<any> {

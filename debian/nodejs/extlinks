@@ -1,0 +1,4 @@
+@types/mocha
+@types/ms
+@types/node
+@types/semver

@@ -1,0 +1,2 @@
+debian/make-snakeoil.exp
+test/*.js

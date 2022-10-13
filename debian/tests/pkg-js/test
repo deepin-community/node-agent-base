@@ -1,0 +1,3 @@
+mkdir --parents test
+debian/make-snakeoil.exp
+mocha --reporter spec dist/test/*.js

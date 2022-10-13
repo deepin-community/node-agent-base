@@ -1,0 +1,11 @@
+#!/usr/bin/expect -f
+
+spawn openssl req -new -x509 -days 3650 -nodes -sha256 -out test/ssl-cert-snakeoil.pem -keyout test/ssl-cert-snakeoil.key
+send -- "\r"
+send -- "\r"
+send -- "\r"
+send -- "\r"
+send -- "\r"
+send -- "\r"
+send -- "\r"
+expect eof

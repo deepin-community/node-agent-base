@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	tsc
+
+override_dh_clean:
+	dh_clean
+	rm -rf dist node_modules
