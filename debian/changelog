@@ -1,8 +1,15 @@
-node-agent-base (6.0.2+~cs5.4.2-1) UNRELEASED; urgency=medium
+node-agent-base (6.0.2+~cs5.4.2-2) unstable; urgency=medium
 
-  * update
+  * Team upload
 
- -- Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>  Fri, 10 Jun 2022 13:51:59 +0800
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-agent-base: Add Multi-Arch: foreign.
+
+  [ Yadd ]
+  * Update standards version to 4.6.1, no changes needed.
+  * Replace /releases by /tags in GitHub urls
+
+ -- Yadd <yadd@debian.org>  Sun, 30 Oct 2022 07:49:17 +0100
 
 node-agent-base (6.0.2+~cs5.4.2-1) unstable; urgency=medium
 

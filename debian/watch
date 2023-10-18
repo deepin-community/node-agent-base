@@ -2,7 +2,7 @@ version=4
 opts=\
 dversionmangle=auto,\
 filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-agent-base-$1/ \
- https://github.com/TooTallNate/node-agent-base/releases .*/archive/.*/v?([\d\.]+).tar.gz group
+ https://github.com/TooTallNate/node-agent-base/tags .*/archive/.*/v?([\d\.]+).tar.gz group
 
 # It is not recommended use npmregistry. Please investigate more.
 # Take a look at https://wiki.debian.org/debian/watch/
